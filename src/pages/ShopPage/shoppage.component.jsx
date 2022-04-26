@@ -13,19 +13,23 @@ class ShopPage extends React.Component{
    render(){
        const {collections} = this.state
        return (
-           <>
+          <>
            {
-           collections.map(
+              collections.map(
                collection=> <CollectionPreview 
-                              key ={collections.id} 
+                              key ={collection.id} 
                               collection = {collection} 
                             />
-                          )
+                         )
             }
-             <CollectionPreview />
+             
            </>
        )
    }
 }
+
+ 
+
+
 
 export default ShopPage
