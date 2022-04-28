@@ -1,10 +1,10 @@
-import { Children } from "react"
+import './custom-button.styles.scss'
 
-const CustomButton = ( {children, ...otherProps}) => {
+const CustomButton = ( {children, ...otherProps}) => (
     <button 
-    {...otherProps}
-    className='custom-button'>
-
-    {children}
+       {...otherProps}
+       className='custom-button'
+    >
+       {children}
     </button>
-}
+)
