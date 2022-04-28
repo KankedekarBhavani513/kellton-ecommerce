@@ -1,9 +1,9 @@
 import HomePage from './pages/HomePage/homepage.component';
 import {Route,Routes} from 'react-router-dom';
 import ShopPage from './pages/ShopPage/shoppage.component';
+import SignInSignUp from './pages/HomePage/Sign-in-and-Sign-up/Sign-in-and-Sign-up.component';
+import Header from './components/header/header.component';
 
-//import SignInSignUp from "./pages/Sign-in-and-Sign-up/Sign-in-and-Sign-up.component";
-//import Header from "./components/header/header.component";
 
 // ROUTE EXAMPLE IMPORTS
  //import {Link,useNavigate,useParams} from 'react-router-dom'
