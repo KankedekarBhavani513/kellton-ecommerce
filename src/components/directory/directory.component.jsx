@@ -10,7 +10,7 @@ const Directory = ({sections}) => {
          to form different menu items */}
             <div className='directory-menu'>
             {
-               
+              
                 sections.map(menu => <MenuItem key={menu.id} menu={menu} /> )
             }
                
@@ -19,4 +19,4 @@ const Directory = ({sections}) => {
     )
 }
 
-export default Directory
+export default Directory;

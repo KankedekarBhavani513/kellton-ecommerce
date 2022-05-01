@@ -1,6 +1,6 @@
 import './header.styles.scss'
 
-import { ReactComponent as Logo } from '../../assets/crwns.svg'
+
 
 import { Link } from 'react-router-dom'
 
